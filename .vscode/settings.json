@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "https://www.schemastore.org/sourcehut-build-0.65.0.json": "file:///Users/zhaixiaoan/zhai/rust/ewam-chat/chat_server/app.yml"
+  }
+}

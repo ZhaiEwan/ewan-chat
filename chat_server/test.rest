@@ -1,0 +1,2 @@
+### signin
+POST http://localhost:8866/api/signin HTTP/1.1
