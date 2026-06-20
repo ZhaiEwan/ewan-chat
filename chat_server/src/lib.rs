@@ -1,5 +1,7 @@
 mod config;
+mod error;
 mod handler;
+mod models;
 
 pub use crate::config::AppConfig;
 use crate::handler::{
