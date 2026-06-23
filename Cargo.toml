@@ -12,7 +12,7 @@ axum = { version = "0.8.9", features = [
     "query",
     "tracing",
     "multipart",
-    # "macros",
+    "macros",
 ] }
 serde = { version = "1.0.198", features = ["derive"] }
 serde_yaml = "0.9.34"

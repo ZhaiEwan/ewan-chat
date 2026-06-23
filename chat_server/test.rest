@@ -1,2 +1,24 @@
+### signup
+POST http://localhost:8866/api/signup
+Content-Type: application/json
+
+{
+    "fullname":"zhai",
+    "email":"zhai@gmail.com",
+    "password":"zyai123"
+}
+
 ### signin
-POST http://localhost:8866/api/signin HTTP/1.1
+# @name signin
+POST http://localhost:8866/api/signin
+Content-Type: application/json
+
+{
+    "email":"zhai@gmail.com",
+    "password":"zyai123"
+}
+###
+@token = {{signin.response.body.token}}
+### signin
+GET http://localhost:8866/api/chat
+Authorization: Bearer {{token}}

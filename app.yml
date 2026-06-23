@@ -1,2 +1,12 @@
 service:
   port: 8866
+  db_url: postgres://postgres:Ewan_1234@124.223.221.161:5432/chat
+auth:
+  ek: |
+    -----BEGIN PRIVATE KEY-----
+    MC4CAQAwBQYDK2VwBCIEILXUOV0Bpc/eJzh8yL0R76p2EZauY23az84IKLvpeBqy
+    -----END PRIVATE KEY-----
+  dk: |
+    -----BEGIN PUBLIC KEY-----
+    MCowBQYDK2VwAyEAJ6mt1HjklABTt5phdAPHas3SB+wwXgA48NTM792LRAs=
+    -----END PUBLIC KEY-----
